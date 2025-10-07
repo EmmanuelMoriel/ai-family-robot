@@ -3,7 +3,7 @@
 ## Epic 1: Core robot framework
 Develop the robot's foundation: control systems, hardware integration (Jetson) and communication.
 
-## Epic 3: Navigation and environment awareness
+## Epic 2: Navigation and environment awareness
 Enable the robot to move autonomously, map rooms and recognize spaces in home.
 
 ## Epic 3: Speech and voice assistant
