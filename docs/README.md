@@ -16,7 +16,7 @@ This project aims to create an AI robot capable of understanding human emotions,
 - Cloud integration
 
 ## Documentation
-- [Product Goal](./product_goal)
+- [Product Goal](./product_goal.md)
 - [Epics](./epics.md)
 - [Product Backlog](./product_backlog.md)
 - [Sprint Backlog](./sprint_backlog.md)
