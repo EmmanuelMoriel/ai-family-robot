@@ -6,32 +6,50 @@ Each story follows this format:
 ---
 
 ## Epic 1: Core Robot Framework
-- As a developer, I want to configure the Jetson board to handle camera, microphone, and motor interfaces.  
-- As a developer, I want to build a local server (FastAPI) for command processing.  
-- As a user, I want the robot to start, connect to Wi-Fi, and be ready to interact.
+- As a developer, I want to set up the Jetson development environment so I can build and test AI modules.
+
+- As a developer, I want to design a modular project structure to support scalable development.
+
+- As a developer, I want to implement base ROS or MQTT communication for components to exchange messages.
+
+- As a system integrator, I want to implement safety and error-handling mechanisms to maintain stable operation.
 
 ---
 
 ## Epic 2: Navigation and Environment Awareness
-- As a user, I want the robot to move around the house safely without colliding with objects.  
-- As a developer, I want to integrate sensors (e.g., LiDAR, ultrasonic, or camera-based SLAM) for spatial awareness.  
-- As a user, I want the robot to recognize specific rooms (living room, kitchen, etc.) so it can navigate on command.  
-- As a user, I want the robot to return to a charging station automatically when battery is low.
+- As a robot, I want to perceive and map the simulated environment using LiDAR or virtual sensors.
+
+- As a user, I want the robot to autonomously navigate around obstacles in the simulation.
+
+- As a developer, I want to visualize navigation paths and environment maps in real time.
+
+- As a user, I want to define "rooms" or zones for context-aware behavior.
 
 ---
 
 ## Epic 3: Speech and Voice Assistant
-- As a user, I want to speak to the robot naturally and receive voice responses.  
-- As a developer, I want to implement wake-word detection and speech-to-text capabilities.  
-- As a user, I want the robot to answer questions or execute voice commands like “play music” or “what’s the weather?”.
+- As a user, I want the robot to understand simple spoken commands.
+
+- As a user, I want the robot to respond with natural voice using text-to-speech.
+
+- As a developer, I want to integrate NLP APIs for intent recognition.
+
+- As a parent, I want the robot to recognize different family members by voice profile.
+
+- As a user, I want the robot to recognize individual voices so it can respond personally.
 
 ---
 
 ## Epic 4: Vision and Emotion Recognition
-- As a user, I want the robot to recognize each family member’s face.  
-- As a user, I want the robot to detect my emotions (happy, sad, tired) to adjust its behavior.  
-- As a developer, I want to process camera input in real time using optimized models on Jetson.  
-- As a user, I want the robot to greet family members by name.
+- As a robot, I want to detect human faces in real-time to identify family members.
+
+- As a robot, I want to recognize emotions (happy, sad, neutral, angry) so I can adapt my behavior.
+
+- As a user, I want the robot to react empathetically based on emotional context.
+
+- As a developer, I want to optimize real-time inference on Jetson hardware for performance.
+
+- As a robot, I want to store and update emotion history per user to learn emotional patterns.
 
 ---
 
@@ -60,3 +78,17 @@ Each story follows this format:
 - As a user, I want a mobile app or web dashboard to see robot status, battery, and sensor data.  
 - As a parent, I want to monitor the robot’s interactions with my children.  
 - As a developer, I want a secure backend API that syncs robot data with the dashboard.
+
+---
+
+## Epic 9: Hardware & robot design
+- As a designer, I want to define the robot’s physical form.  
+- As an engineer, I want to select motors, servos, and sensors compatible with Jetson.  
+- As a designer, I want to prototype the body using 3D modeling or printed parts.
+
+---
+
+## Epic 10: Physical integration & testing
+- As an engineer, I want to integrate the Jetson hardware and sensors into the body.  
+- As a tester, I want to validate navigation and emotion detection in real environments.  
+- As a developer, I want to fine-tune AI models for real-world lighting and sound.
